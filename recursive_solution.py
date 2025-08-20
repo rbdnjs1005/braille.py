@@ -1,12 +1,4 @@
-# braille_ai_game.py
-# ------------------------------------------------------------
-# 인간 vs AI 점자 맞히기 게임 (GUI)
-# 1) 필요한 패키지 설치:  pip install torch pillow numpy
-# 2) 실행: python braille_ai_game.py
-#  - 첫 실행 시 합성 데이터로 간단 학습 후 시작(빠르게 끝나도록 설정)
-#  - 라운드마다: 점자 이미지 제시 → 사람 답 입력 → AI 답/속도 공개 → 점수 갱신
-#  - "점자 표 보기" 버튼으로 알파벳-점자 매핑 확인
-# ------------------------------------------------------------
+# 필요한 패키지: pip install torch pillow numpy
 import os, random, time, threading
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Set
@@ -463,3 +455,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
